@@ -18,7 +18,7 @@ app.get("/api/v1/names/:id",(req,res)=>{
     {
         res.status(200).send({
             status: "success", 
-            message:"Product Name fetched successfully",
+            message:"Product name fetched successfully",
             data:{
                 productName:elem
             }
